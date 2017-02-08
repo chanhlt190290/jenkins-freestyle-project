@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: jenkins.demo.test.TestDemo
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec <<< FAILURE! - in jenkins.demo.test.TestDemo
+test02(jenkins.demo.test.TestDemo)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError
+	at jenkins.demo.test.TestDemo.test02(TestDemo.java:18)
+
