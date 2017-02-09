@@ -2,6 +2,7 @@ package jenkins.demo.test;
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
@@ -24,5 +25,11 @@ public class TestDemo {
     public void test03(){
         System.out.println("OK 03 ");
         assertFalse(false);
+    }
+
+    @Test
+    public void test04(){
+        System.out.println("OK 04 ");
+        assertEquals("Equals test", 1L, 1L);
     }
 }
