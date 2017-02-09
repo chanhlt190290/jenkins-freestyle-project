@@ -30,7 +30,6 @@ public class TestDemo {
     @Test
     public void test04(){
         System.out.println("OK 04 ");
-
-        assertEquals("Equals test", 1L, 1L);
+        assertEquals("Equals test", 1L, 2L);
     }
 }
